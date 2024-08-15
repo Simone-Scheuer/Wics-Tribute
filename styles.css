@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    text-shadow: 0px0px 5px black;
+    background: linear-gradient(#02212B,#29C3B0);
+    color:#FFD77B;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 5px black;
+}
+
+#wics-logo{
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #05D1B5;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-carrying:hover {
+    background-image: url("images/carrying.webp");
+    background-size: cover;
+}
+
+#gift-img-empty:hover {
+    background-image: url("images/empty.webp");
+    background-size: cover;
+}
+
+#gift-img-socials:hover {
+    background-image: url("images/socials.webp");
+    background-size: cover;
+}
+
+#gift-img-fancy:hover {
+    background-image: url("images/fancy.webp");
+}
+
+#gift-img-money:hover {
+    background-image: url("images/money.webp");
+}
+
+#footer {
+    text-shadow: 0px 0px 2px black;
+    font-size: 20px;
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
